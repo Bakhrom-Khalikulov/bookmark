@@ -431,4 +431,69 @@ ol {
   padding-top: 48px;
   padding-bottom: 48px;
   background-color: #fff;
+}
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header__wrapper--end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header__nav--list {
+  display: flex;
+}
+.site-header__nav--item:not(:last-child) {
+  margin-right: 44px;
+}
+.site-header__nav--link {
+  font-size: 13px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 1.5px;
+  color: #242A45;
+}
+.site-header__nav--link:hover {
+  color: #FA5959;
+}
+.site-header__login {
+  padding: 12px 34px;
+  margin-left: 48px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+  color: #fff;
+  border: 2px solid #FA5959;
+  background-color: #FA5959;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  border-radius: 5px;
+}
+.site-header__login:hover {
+  color: #FA5959;
+  background-color: #fff;
+  border: 2px solid #FA5959;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  border-radius: 5px;
+}
+.site-header__burger-menu-btn {
+  display: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 660px) {
+  .site-header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .site-header__wrapper--end {
+    display: none;
+  }
+  .site-header__burger-menu-btn {
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */
