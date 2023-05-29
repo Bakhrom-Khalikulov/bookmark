@@ -485,7 +485,7 @@ ol {
   outline: none;
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 375px) {
   .site-header {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -570,14 +570,15 @@ ol {
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 375px) {
   .hero-section {
     padding-top: 87px;
-    background-position: calc(50% + 270px) 10px;
+    background-position: calc(50% + 160px) 10px;
     background-repeat: no-repeat;
+    background-size: 180%;
   }
   .hero-section__title {
-    padding-top: 480px;
+    padding-top: 250px;
     margin-bottom: 16px;
     margin-right: auto;
     margin-left: auto;
@@ -604,11 +605,15 @@ ol {
     text-align: center;
   }
   .hero-section__link1 {
-    margin-left: 130px;
-    padding-top: 10px 17px;
-    margin-right: 17px;
+    font-size: 12px;
+    line-height: 28px;
+    padding: 10px 16px;
+    margin-right: 10px;
+    margin-left: 20px;
   }
   .hero-section__link2 {
-    padding-top: 10px 17px;
+    font-size: 12px;
+    line-height: 28px;
+    padding: 10px 16px;
   }
 }/*# sourceMappingURL=main.css.map */
